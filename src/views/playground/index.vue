@@ -3,11 +3,11 @@ import * as C from 'cesium';
 import * as T from 'three';
 
 onMounted(() => {
-  console.log('Cesium:', C);
-  console.log('Three.js:', T);
+  console.log(C);
+  console.log(T);
 });
 </script>
 
 <template>
-  <div>playground</div>
+  <div class="h-screen bg-neutral-200"></div>
 </template>
