@@ -5,6 +5,8 @@ import * as T from 'three';
 onMounted(() => {
   console.log(C);
   console.log(T);
+
+  console.log(import.meta.env.VITE_ACCESS_TOKEN);
 });
 </script>
 
