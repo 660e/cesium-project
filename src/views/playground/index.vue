@@ -2,8 +2,6 @@
 import * as C from 'cesium';
 import * as T from 'three';
 
-C.Ion.defaultAccessToken = import.meta.env.VITE_ACCESS_TOKEN;
-
 onMounted(() => {
   console.log(T);
 
